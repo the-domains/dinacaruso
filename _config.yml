@@ -1,29 +1,41 @@
-name: dinacaruso
-favicon: null
-layout_spectrum: 0.7561292503960431
-typography_spectrum: 0.04792350227944553
 title: dinacaruso
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
-opengraph:
-  image: null
-  type: null
-  appId: null
+purpose: []
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
+  saturation: 0.7479475971776992
+  brandStrength: 0.07216053083539009
+  rhythmicContrast: 0.369411903899163
   brandColors:
     - '#ADD7F6'
     - '#87BFFF'
     - '#3F8EFC'
     - '#2667FF'
     - '#3B28CC'
-  brandStrength: 0.07216053083539009
-  lightness: 0.036593944765627384
-  saturation: 0.7479475971776992
-  rhythmicContrast: 0.369411903899163
-purpose: []
+  lightness: 0.03659394476562738
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: dinacaruso
+opengraph:
+  image: null
+  type: null
+  appId: null
+typography_spectrum: 0.3064516
+layout_spectrum: 0.7383512
